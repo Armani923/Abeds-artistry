@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Abed's Artistry - Service</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/services-style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Abed's Artistry</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service.html" class="active">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><li><a href="gallery.html">Gallery</a></li></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="service">
+        <h2>What We Do</h2>
+        <p>Abed's Artistry offers a wide range of house painting services, including:</p>
+        <ul>
+          <li>Interior painting</li>
+          <li>Exterior painting</li>
+          <li>Wallpaper removal</li>
+          <li>Drywall repair</li>
+          <li>Power washing</li>
+          <li>Color consultation</li>
+        </ul>
+        <p>We use only high-quality materials and equipment, and we guarantee your satisfaction with our work. We also offer competitive prices and flexible schedules to suit your needs.</p>
+      </div>
+      <div class="order">
+        <h2>Order Now</h2>
+        <p>Ready to get started? Fill out the form below and we will get back to you as soon as possible.</p>
+        <form action="submit.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required>
+          <label for="service">Service:</label>
+          <select id="service" name="service" required>
+            <option value="interior">Interior painting</option>
+            <option value="exterior">Exterior painting</option>
+            <option value="wallpaper">Wallpaper removal</option>
+            <option value="drywall">Drywall repair</option>
+            <option value="power">Power washing</option>
+            <option value="color">Color consultation</option>
+          </select>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Tell us more about your project"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>© 2023 Abed's Artistry. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
